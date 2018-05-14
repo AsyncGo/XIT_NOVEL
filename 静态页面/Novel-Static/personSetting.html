@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人设置</title>
+    <!-- 插件样式引入 -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="plugins/layui/css/modules/laydate/default/laydate.css">
+
+    <!-- 插件重写样式、公共样式及页面主要样式引入 -->
+    <link rel="stylesheet" href="css/plugins.reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="wrapper bg-grey">
+    <div id="pin-nav" class="pin-nav-wrapper need-search">
+        <div class="container center-block cf">
+            <div class="nav-list site-nav pull-left">
+                <ul>
+                    <li class="site">
+                        <a class="pin-logo" href="javascript:">LOGO</a>
+                    </li>
+                    <li class=""><a href="javascript:" target="#">玄幻</a></li>
+                    <li class=""><a href="javascript:" target="#">都市</a></li>
+                    <li class=""><a href="javascript:" target="#">仙侠</a></li>
+                    <li class=""><a href="javascript:" target="#">科幻</a></li>
+                    <li class=""><a href="javascript:" target="#">游戏</a></li>
+                    <li class=""><a href="javascript:" target="#">历史</a></li>
+                    <li class=""><a href="javascript:" target="_blank">排行</a></li>
+                    <li class="more">
+                        <a href="javascript:" id="top-nav-more" target="#">更多<span class="fa fa-caret-down"></span></a>
+                        <div class="dropdown">
+                            <a href="javascript:" target="_blank">全部作品</a>
+                            <a href="javascript:" target="#">二次元</a>
+                            <a href="javascript:" target="#">奇幻</a>
+                            <a href="javascript:" target="#">武侠</a>
+                            <a href="javascript:" target="#">灵异</a>
+                            <a href="javascript:" target="#">军事</a>
+                            <a href="javascript:" target="#">现实</a>
+                            <a href="javascript:" target="#">体育</a>
+                            <a href="javascript:" target="#">短篇</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-list min-user pull-right">
+                <ul>
+                    <li id="min-search">
+                        <input id="pin-input" class="pin-input" type="text" name="kw" placeholder="天庭小狱卒">
+                        <button class="btn btn-link" id="pin-search"><i class="fa fa-search"></i></button>
+                    </li>
+                    <li class="line"></li>
+                    <li class="sign-out hidden">
+                        <a id="pin-login" href="javascript:">登录</a>
+                        <a class="reg" href="javascript:" target="_blank">注册</a>
+                    </li>
+                    <li class="sign-in">
+                        <a href="javascript:" target="_blank"><i id="nav-user-name">书友20171106094000990</i><span></span></a>
+                        <div class="dropdown">
+                            <a href="javascript:" target="_blank">消息(<i id="top-msg">0</i>)</a>
+                            <a href="javascript:" target="_blank">个人中心</a>
+                            <a id="exit" href="javascript:">退出</a>
+                        </div>
+                    </li>
+                    <li class="line"></li>
+                    <li class="book-shelf" id="top-book-shelf">
+                        <a href="javascript:" target="_blank">
+                            <i class="fa fa-book"></i>
+                            <i>我的书架</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="personal-wrapper container">
+        <div class="row">
+            <div class="personal-sideBar">
+                <h4>个人中心</h4>
+                <ul>
+                    <li class="active"><a href="#"><i class="fa fa-user-o"></i>个人信息</a></li>
+                    <li><a href="#"><i class="fa fa-book"></i>作品管理</a></li>
+                    <li><a href="#"><i class="fa fa-bell-o"></i>消息管理</a></li>
+                    <li><a href="#"><i class="fa fa-desktop"></i>我的书架</a></li>
+                </ul>
+            </div>
+            <div class="personal-content">
+                <div class="user-wrapper">
+                    <div class="user-wrapper-header cf">
+                        <div class="user-related">
+                            <a class="name" href="#">书友20171106094000990</a>
+                            <span>作品<em>3</em></span>
+                            <span>收藏<em>5</em></span>
+                        </div>
+                        <div class="user-wrapper-btn">
+                            <a id="userSettingBtn" href="#" class="btn-userSetting"><i class="fa fa-pencil"></i></a>
+                            <a id="passwordSettingBtn" href="#" class="btn-passwordSetting"><i class="fa fa-cog"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-wrapper-content">
+                    <dl>
+                        <dt>ID</dt>
+                        <dd>20171106094000990</dd>
+                    </dl>
+                    <dl class="saved">
+                        <dt>昵称</dt>
+                        <dd>
+                            <p id="username">书友20171106094000990</p>
+                        </dd>
+                    </dl>
+                    <dl class="higher modify">
+                        <dt>昵称</dt>
+                        <dd>
+                            <span class="modify">
+                                <input id="usernameInput" type="text" value="书友20171106094000990">
+                            </span>
+                        </dd>
+                    </dl>
+                    <dl class="saved">
+                        <dt>性别</dt>
+                        <dd>
+                            <p id="sex">男</p>
+                        </dd>
+                    </dl>
+                    <dl class="modify">
+                        <dt>性别</dt>
+                        <dd>
+                            <input class="radio-danger" type="radio" name="sex" value="0" checked>男
+                            <input class="radio-danger" type="radio" name="sex" value="1">女
+                        </dd>
+                    </dl>
+                    <dl class="saved">
+                        <dt>生日</dt>
+                        <dd>
+                            <p id="userBirthday">2017-12-29</p>
+                        </dd>
+                    </dl>
+                    <dl class="higher modify">
+                        <dt>生日</dt>
+                        <dd>
+                            <input id="userBirthdayInput" type="text" value="2017-12-29">
+                        </dd>
+                    </dl>
+                    <dl class="saved">
+                        <dt>简介</dt>
+                        <dd>
+                            <p id="userDesc">可以简单地描述自己</p>
+                        </dd>
+                    </dl>
+                    <dl class="higher modify">
+                        <dt>简介</dt>
+                        <dd>
+                            <div class="count-text">
+                                <span class="count"><em id="J_descCounter">0</em>/200</span>
+                                <textarea id="userDescInput" placeholder="可以简单地描述自己">可以简单地描述自己</textarea>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="higher modify">
+                        <dt></dt>
+                        <dd>
+                            <button id="saveInfoBtn" class="button red-btn">保存</button>
+                            <button id="cancelInfoBtn" class="button white">取消</button>
+                        </dd>
+                    </dl>
+                </div>
+                <div id="changePasswordWrapper" class="windowForm" style="display: none; padding: 20px;">
+                    <p>新密码</p>
+                    <p class="mb20">
+                        <input class="longInput" type="password" value="">
+                    </p>
+                    <p>确认密码</p>
+                    <p class="mb20">
+                        <input class="longInput" type="password" value="">
+                    </p>
+                    <div class="confirmBtn">
+                        <a id="newVolumeConfirm" class="button red-btn" href="javascript:">确定</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="site-map">
+                    <ul>
+                        <li><a href="javascript:">系统简介</a></li>
+                        <li><a href="javascript:">广告服务</a></li>
+                        <li><a href="javascript:">试用洽谈</a></li>
+                        <li><a href="javascript:">网站地图</a></li>
+                        <li><a href="javascript:">联系方式</a></li>
+                        <li><a href="javascript:">关于我们</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    Copyright © 2017 <a href="javascript:">Gallonce</a> , Inc. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/layui/layui.all.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/main.js"></script>
+<script>
+    (function () {
+        var laydate = layui.laydate,
+            oldName = $('#usernameInput').val(),
+            oldSex = $('.user-wrapper-content input[type=radio][name="sex"]').val(),
+            oldBirthday = $('#userBirthdayInput').val(),
+            oldDesc = $('#userDescInput').val();
+
+        // 初始化日期选择组件
+        laydate.render({
+            elem: '#userBirthdayInput',
+            theme: '#ee4259',
+            showBottom: false
+        });
+
+        // 绑定简介字数
+        wordCount('#userDescInput', '#J_descCounter', 200);
+
+        // 编辑按钮
+        $('#userSettingBtn').on('click', function () {
+            $('.user-wrapper-content').find('.modify').show();
+            $('.user-wrapper-content').find('.saved').hide();
+            $('#J_descCounter').text($('#userDescInput').val().length);
+        });
+
+        // 保存
+        $('#saveInfoBtn').on('click', function () {
+
+            $('#username').text($('#usernameInput').val());
+            $('#userBirthday').text($('#userBirthdayInput').val());
+            $('#userDesc').text($('#userDescInput').val());
+            console.log($('.user-wrapper-content input[type=radio][name="sex"]:checked').val());
+            $('#sex').text($('.user-wrapper-content input[type=radio][name="sex"]:checked').val() == 1 ? '女' : '男');
+
+            $('.user-wrapper-content').find('.modify').hide();
+            $('.user-wrapper-content').find('.saved').show();
+        });
+
+        // 取消保存
+        $('#cancelInfoBtn').on('click', function () {
+
+            $('#usernameInput').val(oldName);
+            $('.user-wrapper-content input[type=radio][name="sex"]').val(oldSex);
+            $('#userBirthdayInput').val(oldBirthday);
+            $('#userDescInput').val(oldDesc);
+
+            $('.user-wrapper-content').find('.modify').hide();
+            $('.user-wrapper-content').find('.saved').show();
+        });
+
+        // 修改密码
+        $('#passwordSettingBtn').on('click', function () {
+            layer.open({
+                type: 1,
+                title: '修改密码',
+                area: ['auto'],
+                content: layui.jquery('#changePasswordWrapper')
+            });
+        });
+
+    })();
+</script>
+</body>
+</html>

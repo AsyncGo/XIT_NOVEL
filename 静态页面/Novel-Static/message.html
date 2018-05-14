@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>消息中心</title>
+    <!-- 插件样式引入 -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.css">
+
+    <!-- 插件重写样式、公共样式及页面主要样式引入 -->
+    <link rel="stylesheet" href="css/plugins.reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="wrapper bg-grey">
+    <div id="pin-nav" class="pin-nav-wrapper need-search">
+        <div class="container center-block cf">
+            <div class="nav-list site-nav pull-left">
+                <ul>
+                    <li class="site">
+                        <a class="pin-logo" href="javascript:">LOGO</a>
+                    </li>
+                    <li class=""><a href="javascript:" target="#">玄幻</a></li>
+                    <li class=""><a href="javascript:" target="#">都市</a></li>
+                    <li class=""><a href="javascript:" target="#">仙侠</a></li>
+                    <li class=""><a href="javascript:" target="#">科幻</a></li>
+                    <li class=""><a href="javascript:" target="#">游戏</a></li>
+                    <li class=""><a href="javascript:" target="#">历史</a></li>
+                    <li class=""><a href="javascript:" target="_blank">排行</a></li>
+                    <li class="more">
+                        <a href="javascript:" id="top-nav-more" target="#">更多<span class="fa fa-caret-down"></span></a>
+                        <div class="dropdown">
+                            <a href="javascript:" target="_blank">全部作品</a>
+                            <a href="javascript:" target="#">二次元</a>
+                            <a href="javascript:" target="#">奇幻</a>
+                            <a href="javascript:" target="#">武侠</a>
+                            <a href="javascript:" target="#">灵异</a>
+                            <a href="javascript:" target="#">军事</a>
+                            <a href="javascript:" target="#">现实</a>
+                            <a href="javascript:" target="#">体育</a>
+                            <a href="javascript:" target="#">短篇</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-list min-user pull-right">
+                <ul>
+                    <li id="min-search">
+                        <input id="pin-input" class="pin-input" type="text" name="kw" placeholder="天庭小狱卒">
+                        <button class="btn btn-link" id="pin-search"><i class="fa fa-search"></i></button>
+                    </li>
+                    <li class="line"></li>
+                    <li class="sign-out hidden">
+                        <a id="pin-login" href="javascript:">登录</a>
+                        <a class="reg" href="javascript:" target="_blank">注册</a>
+                    </li>
+                    <li class="sign-in">
+                        <a href="javascript:" target="_blank"><i id="nav-user-name">书友20171106094000990</i><span></span></a>
+                        <div class="dropdown">
+                            <a href="javascript:" target="_blank">消息(<i id="top-msg">0</i>)</a>
+                            <a href="javascript:" target="_blank">个人中心</a>
+                            <a id="exit" href="javascript:">退出</a>
+                        </div>
+                    </li>
+                    <li class="line"></li>
+                    <li class="book-shelf" id="top-book-shelf">
+                        <a href="javascript:" target="_blank">
+                            <i class="fa fa-book"></i>
+                            <i>我的书架</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="personal-wrapper container">
+        <div class="row">
+            <div class="personal-sideBar">
+                <h4>个人中心</h4>
+                <ul>
+                    <li><a href="#"><i class="fa fa-user-o"></i>个人信息</a></li>
+                    <li><a href="#"><i class="fa fa-book"></i>作品管理</a></li>
+                    <li class="active"><a href="#"><i class="fa fa-bell-o"></i>消息中心</a></li>
+                    <li><a href="#"><i class="fa fa-desktop"></i>我的书架</a></li>
+                </ul>
+            </div>
+            <div class="personal-content">
+                <h3 class="personal-title">消息中心</h3>
+                <div class="messageList-wrapper">
+                    <ul class="message-list">
+                        <li>
+                            <div class="message-wrapper unread">
+                                <h3 class="message-title">
+                                    <span class="user"> 用户名 </span>对《<a class="book-name" href="#">小说名</a>》的
+                                    <a class="chapter-title" href="#">章节标题</a> 进行了评论：</h3>
+                                <label class="label label-danger">评论</label>
+                                <p class="message-content">用户评论了你评论了你评论了你评论用户评论了你评论了你评论了你评论了你评论了你评论了你评论了你用户评论了你评论了你评论了你评论了你评论了你评论了你评论了你用户评论了你评论了你评论了你评论了你评论了你评论了你评论了你用户评论了你评论了你评论了你评论了你评论了你评论了你评论了你用户评论了你评论了你评论了你评论了你评论了你评论了你评论了你用户评论了你评论了你评论了你评论了你评论了你评论了你评论了你用户评论了你评论了你评论了你评论了你评论了你评论了你评论了你用户评论了你评论了你评论了你评论了你评论了你评论了你评论了你了你评论了你评论了你评论了你</p>
+                            </div>
+                            <span class="time pull-right">2017-12-25</span>
+                            <div class="message-btn text-right">
+                                <a class="reply" href="javascript:">回复</a>
+                                <a class="delete" href="javascript:">删除</a>
+                            </div>
+                            <div class="reply-comment">
+                                <textarea class="form-control reply-content" cols="30" rows="3" placeholder="请输入回复内容" required></textarea>
+                                <a class="reply-btn btn red-btn" data-id="#">回复</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="message-wrapper">
+                                <h3 class="message-title">
+                                    <span class="user"> 用户名 </span>对《<a class="book-name" href="#">小说名</a>》的
+                                    <a class="chapter-title" href="#">章节标题</a> 进行了评论：</h3>
+                                <label class="label label-danger">评论</label>
+                                <p class="message-content">用户评论了你评论了你评论了你评论了你评论了你评论了你评论了你</p>
+                            </div>
+                            <span class="time pull-right">2017-12-25</span>
+                            <div class="message-btn text-right">
+                                <a class="reply" href="javascript:">回复</a>
+                                <a class="delete" href="javascript:">删除</a>
+                            </div>
+                            <div class="reply-comment">
+                                <textarea class="form-control reply-content" cols="30" rows="3" placeholder="请输入回复内容" required></textarea>
+                                <a class="reply-btn btn red-btn" data-id="#">回复</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="message-wrapper">
+                                <h3 class="message-title"><span class="user"> 用户名 </span>对我的评论进行了回复：</h3>
+                                <label class="label label-warning">回复</label>
+                                <p class="message-content">用户评论了你评论了你评论了你评论了你评论了你评论了你评论了你用户评论了你评论了你评论了你评论了你评论了你评论了你评论了你用户评论了你评论了你评论了你评论了你评论了你评论了你评论了你</p>
+                            </div>
+                            <span class="time pull-right">2017-12-25</span>
+                            <div class="message-btn text-right">
+                                <a class="delete" href="javascript:">删除</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="site-map">
+                    <ul>
+                        <li><a href="javascript:">系统简介</a></li>
+                        <li><a href="javascript:">广告服务</a></li>
+                        <li><a href="javascript:">试用洽谈</a></li>
+                        <li><a href="javascript:">网站地图</a></li>
+                        <li><a href="javascript:">联系方式</a></li>
+                        <li><a href="javascript:">关于我们</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    Copyright © 2017 <a href="javascript:">Gallonce</a> , Inc. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/layui/layui.all.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/main.js"></script>
+<script>
+    (function () {
+        // 展开回复区域块
+        $('.message-btn .reply').on('click', function () {
+            $(this).parent().siblings(".reply-comment").fadeToggle('fast');
+        });
+
+        // 提交回复
+        $('.reply-comment .reply-btn').on('click', function () {
+            var commentId = $(this).data('id');
+            var commentContent = $(this).siblings('.reply-content').val();
+            if (commentContent == null || commentContent == "") {
+                layer.msg('回复内容不能为空');
+            }
+
+            // TODO:ajax操作
+        });
+
+        // 删除评论
+        $('.message-btn .delete').on('click', function () {
+            var commentId = $(this).data('id');
+            // TODO:ajax请求删除
+        });
+    })();
+</script>
+</body>
+</html>

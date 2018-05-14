@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小说搜索页</title>
+    <!-- 插件样式引入 -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.css">
+
+    <!-- 插件重写样式、公共样式及页面主要样式引入 -->
+    <link rel="stylesheet" href="css/plugins.reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="wrapper">
+    <div id="pin-nav" class="pin-nav-wrapper need-search">
+        <div class="container center-block cf">
+            <div class="nav-list site-nav pull-left">
+                <ul>
+                    <li class="site">
+                        <a class="pin-logo" href="javascript:">LOGO</a>
+                    </li>
+                    <li class=""><a href="javascript:" target="#">玄幻</a></li>
+                    <li class=""><a href="javascript:" target="#">都市</a></li>
+                    <li class=""><a href="javascript:" target="#">仙侠</a></li>
+                    <li class=""><a href="javascript:" target="#">科幻</a></li>
+                    <li class=""><a href="javascript:" target="#">游戏</a></li>
+                    <li class=""><a href="javascript:" target="#">历史</a></li>
+                    <li class=""><a href="javascript:" target="_blank">排行</a></li>
+                    <li class="more">
+                        <a href="javascript:" id="top-nav-more" target="#">更多<span class="fa fa-caret-down"></span></a>
+                        <div class="dropdown">
+                            <a href="javascript:" target="_blank">全部作品</a>
+                            <a href="javascript:" target="#">二次元</a>
+                            <a href="javascript:" target="#">奇幻</a>
+                            <a href="javascript:" target="#">武侠</a>
+                            <a href="javascript:" target="#">灵异</a>
+                            <a href="javascript:" target="#">军事</a>
+                            <a href="javascript:" target="#">现实</a>
+                            <a href="javascript:" target="#">体育</a>
+                            <a href="javascript:" target="#">短篇</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-list min-user pull-right">
+                <ul>
+                    <li id="min-search">
+                        <input id="pin-input" class="pin-input" type="text" name="kw" placeholder="天庭小狱卒">
+                        <button class="btn btn-link" id="pin-search"><i class="fa fa-search"></i></button>
+                    </li>
+                    <li class="line"></li>
+                    <li class="sign-out hidden">
+                        <a id="pin-login" href="javascript:">登录</a>
+                        <a class="reg" href="javascript:" target="_blank">注册</a>
+                    </li>
+                    <li class="sign-in">
+                        <a href="javascript:" target="_blank"><i id="nav-user-name">书友20171106094000990</i><span></span></a>
+                        <div class="dropdown">
+                            <a href="javascript:" target="_blank">消息(<i id="top-msg">0</i>)</a>
+                            <a href="javascript:" target="_blank">个人中心</a>
+                            <a id="exit" href="javascript:">退出</a>
+                        </div>
+                    </li>
+                    <li class="line"></li>
+                    <li class="book-shelf" id="top-book-shelf">
+                        <a href="javascript:" target="_blank">
+                            <i class="fa fa-book"></i>
+                            <i>我的书架</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="search-container">
+        <div class="search-wrapper cf">
+            <input type="text" id="s-box" placeholder="请输入小说名称">
+            <a class="search-btn" id="search-btn" href="javascript:">搜索</a>
+        </div>
+    </div>
+    <div class="result-wrapper container cf">
+        <div class="main-content-wrapper pull-left">
+            <div class="search-filter">
+                <ul>
+                    <li>
+                        <em>站点</em>
+                        <dl>
+                            <dd>
+                                <a class="J_filter_item" href="javascript:">男生</a>
+                                <a class="J_filter_item" href="javascript:">女生</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <em>分类</em>
+                        <dl>
+                            <dd>
+                                <a class="J_filter_item" href="javascript:">玄幻<cite>(876)</cite></a>
+                                <a class="J_filter_item" href="javascript:">奇幻<cite>(61)</cite></a>
+                                <a class="J_filter_item" href="javascript:">武侠<cite>(26)</cite></a>
+                                <a class="J_filter_item" href="javascript:">仙侠<cite>(138)</cite></a>
+                                <a class="J_filter_item" href="javascript:">都市<cite>(71)</cite></a>
+                                <a class="J_filter_item" href="javascript:">军事<cite>(1)</cite></a>
+                                <a class="J_filter_item" href="javascript:">历史<cite>(23)</cite></a>
+                                <a class="J_filter_item" href="javascript:">灵异<cite>(27)</cite></a>
+                                <a class="J_filter_item" href="javascript:">游戏<cite>(18)</cite></a>
+                                <a class="J_filter_item" href="javascript:">科幻<cite>(91)</cite></a>
+                                <a class="J_filter_item" href="javascript:">二次元<cite>(583)</cite></a>
+                                <a class="J_filter_item" href="javascript:">现实<cite>(3)</cite></a>
+                                <a class="J_filter_item" href="javascript:">短篇<cite>(1)</cite></a>
+                                <a class="J_filter_item" href="javascript:">古代言情<cite>(24)</cite></a>
+                                <a class="J_filter_item" href="javascript:">现代言情<cite>(5)</cite></a>
+                                <a class="J_filter_item" href="javascript:">仙侠奇缘<cite>(2)</cite></a>
+                                <a class="J_filter_item" href="javascript:">浪漫青春<cite>(2)</cite></a>
+                                <a class="J_filter_item" href="javascript:">玄幻言情<cite>(18)</cite></a>
+                                <a class="J_filter_item" href="javascript:">游戏竞技<cite>(1)</cite></a>
+                                <a class="J_filter_item" href="javascript:">N次元<cite>(17)</cite></a>
+                                <a class="J_filter_item" href="javascript:">小说
+                                    <cite>(4)</cite></a>
+                                <a class="J_filter_item" href="javascript:">青春文学<cite>(1)</cite></a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <em>状态</em>
+                        <dl>
+                            <dd>
+                                <a class="J_filter_item" href="javascript:">连载<cite>(1867)</cite></a>
+                                <a class="J_filter_item" href="javascript:">完本<cite>(127)</cite></a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <em>字数</em>
+                        <dl>
+                            <dd>
+                                <a class="J_filter_item" href="javascript:">30万字以下<cite>(1875)</cite></a>
+                                <a class="J_filter_item" href="javascript:">30-50万字<cite>(38)</cite></a>
+                                <a class="J_filter_item" href="javascript:">50-100万字<cite>(39)</cite></a>
+                                <a class="J_filter_item" href="javascript:">100-200万字<cite>(28)</cite></a>
+                                <a class="J_filter_item" href="javascript:">200万字以上<cite>(14)</cite></a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <em>更新时间</em>
+                        <dl>
+                            <dd>
+                                <a class="J_filter_item" href="javascript:">一月内</a>
+                                <a class="J_filter_item" href="javascript:">半月内</a>
+                                <a class="J_filter_item" href="javascript:">七日内</a>
+                                <a class="J_filter_item" href="javascript:">三日内</a>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div id="result-list">
+                <div class="book-img-text">
+                    <ul>
+                        <li>
+                            <div class="book-img-box">
+                                <a href="javascript:" target="_blank"><img src="//qidian.qpic.cn/qdbimg/349573/1209977/150"></a>
+                            </div>
+                            <div class="book-mid-info">
+                                <h4>
+                                    <a href="javascript:" target="_blank">
+                                        斗破苍穹
+                                    </a>
+                                </h4>
+                                <p class="author">
+                                    <img src="images/user.png">
+                                    <a class="name" href="javascript:" target="_blank">天蚕土豆</a>
+                                    <em>|</em>
+                                    <a href="javascript:" target="_blank">玄幻</a>
+                                    <em>|</em>
+                                    <span>完本</span>
+                                </p>
+                                <p class="intro">
+                                    这里是属于斗气的世界，没有花俏艳丽的魔法，有的，仅仅是繁衍到巅峰的斗气！新书等级制度：斗者，斗师，大斗师，斗灵，斗王，斗皇，斗宗，斗尊，斗圣，斗帝。
+                                </p>
+                                <p class="update">
+                                    <a href="javascript:" target="_blank">最新更新 新书大主宰已发。</a>
+                                    <em>·</em>
+                                    <span>2013-07-03 11:18:25</span>
+                                </p>
+                            </div>
+                            <div class="book-right-info">
+                                <div class="total">
+                                    <p><span> 524.11万</span>总字数</p>
+                                    <p><span> 670.65万</span>总推荐</p>
+                                    <p><span> 15120.8万</span>总点击</p>
+                                </div>
+                                <p class="btn">
+                                    <a class="red-btn" href="javascript:" target="_blank">书籍详情</a>
+                                    <a class="blue-btn add-book" href="javascript:">加入书架</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="book-img-box">
+                                <a href="javascript:" target="_blank">
+                                    <img src="//qidian.qpic.cn/qdbimg/349573/1010484355/150">
+                                </a>
+                            </div>
+                            <div class="book-mid-info">
+                                <h4>
+                                    <a href="javascript:" target="_blank">斗破之远方的团扇</a>
+                                </h4>
+                                <p class="author">
+                                    <img src="images/user.png">
+                                    <a class="name" href="javascript:" target="_blank">冉闵屠胡</a>
+                                    <em>|</em>
+                                    <a href="javascript:" target="_blank">二次元</a>
+                                    <em>|</em>
+                                    <span>连载中</span>
+                                </p>
+                                <p class="intro">
+                                    在“人吃人”的火影世界战国时代奋斗了二十六年的宇智波痕，最终成为了曾经战友，自己的堂兄宇智波斑万花筒写轮眼的牺牲品。不过当他睁开眼睛后，却发现自己来到了一个有些陌生的世界......（之前那本写的
+                                </p>
+                                <p class="update">
+                                    <a href="javascript:" target="_blank">最新更新 第四十七章 提亲</a>
+                                    <em>·</em>
+                                    <span>昨日00:22更新</span>
+                                </p>
+                            </div>
+                            <div class="book-right-info">
+                                <div class="total">
+                                    <p><span> 46.28万</span>总字数</p>
+                                    <p><span> 1.28万</span>总推荐</p>
+                                    <p><span> 14.85万</span>总点击</p>
+                                </div>
+                                <p class="btn">
+                                    <a class="red-btn" href="javascript:" target="_blank">书籍详情</a>
+                                    <a class="blue-btn add-book" href="javascript:">加入书架</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="book-img-box">
+                                <a href="javascript:" target="_blank">
+                                    <img src="//qidian.qpic.cn/qdbimg/349573/2211027/150">
+                                </a>
+                            </div>
+                            <div class="book-mid-info">
+                                <h4>
+                                    <a href="javascript:" target="_blank">斗破之无上之境</a>
+                                </h4>
+                                <p class="author">
+                                    <img src="images/user.png">
+                                    <a class="name" href="javascript:" target="_blank">夜雨闻铃0</a>
+                                    <em>|</em>
+                                    <a href="javascript:" target="_blank">二次元</a>
+                                    <em>|</em>
+                                    <span>连载中</span>
+                                </p>
+                                <p class="intro">
+                                    你常说，复仇才是我的使命，但你却不知道，守护你，才是我一生的宿命等级制度：斗帝、斗仙、斗神、帝之不朽…………斗破无上粉丝群：538676464
+                                </p>
+                                <p class="update">
+                                    <a href="javascript:" target="_blank">最新更新 第一千五百五十四章 您会同意吧</a>
+                                    <em>·</em>
+                                    <span>昨日12:00更新</span>
+                                </p>
+                            </div>
+                            <div class="book-right-info">
+                                <div class="total">
+                                    <p><span> 271.37万</span>总字数</p>
+                                    <p><span> 3.87万</span>总推荐</p>
+                                    <p><span> 760.18万</span>总点击</p>
+                                </div>
+                                <p class="btn">
+                                    <a class="red-btn" href="javascript:" target="_blank">书籍详情</a>
+                                    <a class="blue-btn add-book" href="javascript:">加入书架</a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="page-box cf" data-l1="3">
+                <div class="pagination-wrapper custom-pagination pull-right" id="page-container">
+                    <ul class="pagination">
+                        <li class="disabled">
+                            <a href="#" aria-label="Previous"><span aria-hidden="true">&lt;</span></a>
+                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&gt;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right-side-wrapper pull-right">
+            <div class="other-rec-wrapper">
+                <h3 class="lang">搜这本书的还看</h3>
+                <ul>
+                    <li>
+                        <div class="img-box">
+                            <a href="javascript:" target="_blank">
+                                <img src="//qidian.qpic.cn/qdbimg/349573/1010872067/90">
+                            </a>
+                        </div>
+                        <div class="book-info">
+                            <h4>
+                                <a href="javascript:" target="_blank">九野长恨歌</a>
+                            </h4>
+                            <p class="author">
+                                <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">
+                                <a href="javascript:" target="_blank">酒十六</a>
+                            </p>
+                            <p class="intro">71%的用户读过</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a href="javascript:" target="_blank">
+                                <img src="//qidian.qpic.cn/qdbimg/349573/1009997161/90">
+                            </a>
+                        </div>
+                        <div class="book-info">
+                            <h4><a href="javascript:" target="_blank">武念神帝</a></h4>
+                            <p class="author">
+                                <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">
+                                <a href="javascript:" target="_blank">风靡网络</a>
+                            </p>
+                            <p class="intro">89%的用户读过</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a href="javascript:" target="_blank">
+                                <img src="//qidian.qpic.cn/qdbimg/349573/1010000699/90">
+                            </a>
+                        </div>
+                        <div class="book-info">
+                            <h4>
+                                <a href="javascript:" target="_blank">无上崛起</a>
+                            </h4>
+                            <p class="author">
+                                <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">
+                                <a href="javascript:" target="_blank">宝石猫</a>
+                            </p>
+                            <p class="intro">78%的用户读过</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a href="javascript:" target="_blank">
+                                <img src="//qidian.qpic.cn/qdbimg/349573/1010378782/90">
+                            </a>
+                        </div>
+                        <div class="book-info">
+                            <h4>
+                                <a href="javascript:" target="_blank">神奇铁匠铺</a>
+                            </h4>
+                            <p class="author">
+                                <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">
+                                <a href="javascript:" target="_blank">时间海藻</a>
+                            </p>
+                            <p class="intro">77%的用户读过</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a href="javascript:" target="_blank">
+                                <img src="//qidian.qpic.cn/qdbimg/349573/2278933/90">
+                            </a>
+                        </div>
+                        <div class="book-info">
+                            <h4>
+                                <a href="javascript:">黑暗裁决</a>
+                            </h4>
+                            <p class="author">
+                                <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">
+                                <a href="javascript:" target="_blank">胖熊猫</a>
+                            </p>
+                            <p class="intro">77%的用户读过</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img-box">
+                            <a href="javascript:" target="_blank">
+                                <img src="//qidian.qpic.cn/qdbimg/349573/3176570/90">
+                            </a>
+                        </div>
+                        <div class="book-info">
+                            <h4>
+                                <a href="javascript:">星武狂潮</a>
+                            </h4>
+                            <p class="author">
+                                <img src="//qidian.gtimg.com/qd/images/ico/user.f22d3.png">
+                                <a href=# target="_blank">话筒</a>
+                            </p>
+                            <p class="intro">72%的用户读过</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="site-map">
+                    <ul>
+                        <li><a href="javascript:">系统简介</a></li>
+                        <li><a href="javascript:">广告服务</a></li>
+                        <li><a href="javascript:">试用洽谈</a></li>
+                        <li><a href="javascript:">网站地图</a></li>
+                        <li><a href="javascript:">联系方式</a></li>
+                        <li><a href="javascript:">关于我们</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    Copyright © 2017 <a href="javascript:">Gallonce</a> , Inc. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/layui/layui.all.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <!-- 插件样式引入 -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.css">
+
+    <!-- 插件重写样式、公共样式及页面主要样式引入 -->
+    <link rel="stylesheet" href="css/plugins.reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="top-nav">
+        <div class="container cf">
+            <div class="row">
+                <div class="login-box text-right">
+                    <span class="pull-left">起点中文网</span>
+                    <div class="sign-in" style="display: none;">
+                        <span>你好，</span><a class="black" id="user-name" href="#" target="_blank">书友20171106094000990</a><em>|</em><a class="black" id="msg-btn" href="//me.qidian.com/msg/systems.aspx?page=1" target="_blank" data-eid="qd_A09">消息<cite id="msg-box">(<i class="black">0</i>)</cite></a><em>|</em><a id="exit-btn" href="javascript:" data-eid="qd_A10">退出</a>
+                    </div>
+                    <div class="sign-out">
+                        <a id="login-btn" class="black" href="javascript:" target="_blank">登录</a>
+                        <em>|</em>
+                        <a id="reg-btn" href="#" target="_blank">注册</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logo-wrapper container center-block">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="logo">
+                    <a href="javascript:">LOGO</a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="search-wrapper center-block">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="请输入小说名称">
+                        <span class="input-group-btn">
+                    <button class="btn btn-default red-btn" type="button"><i class="fa fa-search"></i></button>
+                </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 text-right">
+                <div class="book-shelf">
+                    <a href="javascript:" id="" target="_blank">
+                        <em class="fa fa-book"></em>
+                        <i>我的书架</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-nav-wrapper">
+        <div class="main-nav container">
+            <div class="row">
+                <ul>
+                    <li class="first">
+                        <span><i class="fa fa-bars"></i>作品分类</span>
+                    </li>
+                    <li class="nav-li">
+                        <a href="list.html">全部作品</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="javascript:">排行</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="javascript:">完本</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="javascript:">免费</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="javascript:" target="_blank">作家专区</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="focus-wrapper container">
+        <div class="row">
+            <div class="classify-list pull-left so-awesome" id="classify-list">
+                <dl>
+                    <dd>
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-xuanhuan"></em>
+                                <span class="info">
+                                    <i>玄幻</i>
+                                    <b>616172</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-qihuan"></em>
+                                <span class="info">
+                                    <i>奇幻</i>
+                                    <b>133039</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                    <dd class="even">
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-wuxia"></em>
+                                <span class="info">
+                                    <i>武侠</i>
+                                    <b>36630</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                    <dd class="even">
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-xianxia"></em>
+                                <span class="info">
+                                    <i>仙侠</i>
+                                    <b>210084</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-dushi"></em>
+                                <span class="info">
+                                    <i>都市</i>
+                                    <b>334041</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-xianshi"></em>
+                                <span class="info">
+                                    <i>现实</i>
+                                    <b>14540</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                    <dd class="even">
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-junshi"></em>
+                                <span class="info">
+                                    <i>军事</i>
+                                    <b>18515</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                    <dd class="even">
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-lishi"></em>
+                                <span class="info">
+                                    <i>历史</i>
+                                    <b>71545</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-youxi"></em>
+                                <span class="info">
+                                    <i>游戏</i>
+                                    <b>95579</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-tiyu"></em>
+                                <span class="info">
+                                    <i>体育</i>
+                                    <b>9185</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                    <dd class="even">
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-kehuan"></em>
+                                <span class="info">
+                                    <i>科幻</i>
+                                    <b>132152</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                    <dd class="even">
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-lingyi"></em>
+                                <span class="info">
+                                    <i>灵异</i>
+                                    <b>53432</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-nvsheng"></em>
+                                <span class="info">
+                                    <i>女生</i>
+                                    <b>623751</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:" target="_blank">
+                            <cite>
+                                <em class="icomoon-erciyuan"></em>
+                                <span class="info">
+                                    <i>二次元</i>
+                                    <b>90086</b>
+                                </span>
+                            </cite>
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="focus-box pull-left">
+                <div id="myFocus">
+                    <div class="loading"><img src="images/loading.gif" alt="请稍候..."/></div>
+                    <div class="pic">
+                        <ul>
+                            <li><a href="javascript:"><img src="images/mapper01.jpg" alt=""/></a></li>
+                            <li><a href="javascript:"><img src="images/mapper02.jpg" alt=""/></a></li>
+                            <li><a href="javascript:"><img src="images/mapper03.jpg" alt=""/></a></li>
+                            <li><a href="javascript:"><img src="images/mapper04.jpg" alt=""/></a></li>
+                            <li><a href="javascript:"><img src="images/mapper05.jpg" alt=""/></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hot-work-wrapper container cf">
+        <div class="row">
+            <div class="hot-work-box pull-left">
+                <h3 class="wrapper-title lang">热门作品</h3>
+                <div class="hot-work-info">
+                    <div class="hot-work-slide">
+                        <div class="three-slide-wrapper">
+                            <a href="javascript:" target="_blank">
+                                <img class="lazy" src="#" alt="无限之动漫电影小队" style="display: inline;">
+                            </a>
+                        </div>
+                        <div class="info-text">
+                            <h3>
+                                <a href="javascript:" target="_blank">无限之动漫电影小队</a>
+                            </h3>
+                            <p class="author">
+                                <a href="javascript:" target="_blank">重新飞起来</a><em>·</em>7.1分
+                            </p>
+                            <p class="total"><b>622,030</b><span>人气</span></p>
+                            <p class="intro">和动漫电影角色们组队，一起对抗穿越者和轮回者！</p>
+                            <a class="read-btn" href="javascript:" target="_blank">书籍详情</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hot-classify-wrapper pull-left">
+                <ul>
+                    <li>
+                        <h3 class="wrapper-title lang">
+                            玄幻<i>·</i>奇幻
+                        </h3>
+                        <dl class="hot-book-list">
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>玄幻<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="世尊">夜南听风新书世尊来袭</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>玄幻<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="崛起诸天">我有金手指，能穿梭诸天</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>玄幻<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="大债主系统">放贷获得对方的招式技能！</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>玄幻<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="升级我靠黑科技">升级我靠黑科技</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>奇幻<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="蛊惑魔王">穿越为一只蛊惑魔鬼的故事</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <h3 class="wrapper-title lang">
+                            武侠<i>·</i>仙侠
+                        </h3>
+                        <dl class="hot-book-list">
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>仙侠<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="厨道仙途">幻雨新书，火热来袭！</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>仙侠<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="大劫主">《掠天记》作者，新书来袭</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>仙侠<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="洪荒之妖皇逆天">穿越洪荒，逆天妖皇！</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>仙侠<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="我的完美进化">暴力吃货，杀戮成神！</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>武侠<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="死灵法师的侠客生活">死灵法师魂穿武侠世界</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <h3 class="wrapper-title lang">
+                            都市<i>·</i>现实
+                        </h3>
+                        <dl class="hot-book-list">
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>都市<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="反派不洗白">人生赢家头顶反派标签</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>都市<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="强人">讲一个强人的故事</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>都市<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="重生神豪奶爸">大神豪家养小萝莉</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>都市<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="男神的文艺进化史">落魄教师的文娱雄起之路</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>都市<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="重生始于1992">重生1992，引领华娱</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="mr0">
+                        <h3 class="wrapper-title lang">
+                            历史<i>·</i>军事
+                        </h3>
+                        <dl class="hot-book-list">
+                            <dd>
+                                <a class="classify" href="javascript:" arget="_blank">
+                                    <em>「</em>历史<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="懒散初唐">安心的过自己的小日子。</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>历史<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="穷鬼的上下两千年">这么一个人，活了两千年。</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>历史<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="红楼之庶子风流">外科医生过劳而卒！</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>历史<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="马前卒">开启波澜壮阔的一生。</a></dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>军事<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="炎黄重启">几十万年后，文明再次崛起</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="mb0">
+                        <h3 class="wrapper-title lang">
+                            游戏<i>·</i>体育
+                        </h3>
+                        <dl class="hot-book-list">
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>游戏<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="我家客厅有个副本">客厅出现了副本入口！</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>游戏<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="开局一个福利号">开局一个福利号</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>游戏<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="异端教条">异界的智械危机!</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>游戏<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="我的舢舨能升级">升级飞船，系统称霸星海！</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>体育<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="篮坛上帝">放手一搏，NBA上帝！</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="mb0">
+                        <h3 class="wrapper-title lang">
+                            科幻<i>·</i>灵异
+                        </h3>
+                        <dl class="hot-book-list">
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>科幻<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="环城术士">继承诸天枢纽，万界荣光！</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>科幻<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="无限制穿越季">自由穿越幻想世界的</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>科幻<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="某美漫的机械主宰">穿越漫威，成为机械主宰！</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>科幻<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="无限万界系统">强大得让世界都感觉害怕！</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>灵异<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="重生美国做灵媒">坑蒙拐骗，混迹美国上流</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="erciyuan mb0">
+                        <h3 class="wrapper-title lang">
+                            二次元
+                        </h3>
+                        <dl class="hot-book-list">
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>二次元<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="仙子饶命">与绝色仙子互换身体</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>二次元<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="超级忍者系统">以系统制霸忍者世界</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>二次元<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="海贼之烟雾大将">烟雾果实的正确玩法</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>二次元<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="变身二次元便当少女">变身二次元领便当的少女</a>
+                            </dd>
+                            <dd>
+                                <a class="classify" href="javascript:" target="_blank">
+                                    <em>「</em>二次元<em>」</em>
+                                </a>
+                                <a class="name" href="javascript:" target="_blank" title="一个不正经的电器城">在异界贩卖各种电器</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="mr0 mb0">
+                        <div class="book-wrapper bd cf">
+                            <div class="book-info pull-left">
+                                <span class="tag">娱乐明星</span>
+                                <h4>
+                                    <a href="javascript:" target="_blank">巨星来了</a>
+                                </h4>
+                                <p class="digital">
+                                    <em>774,963</em>人气
+                                </p>
+                                <p class="desc">璀璨盛世，做最耀眼的星</p>
+                            </div>
+                            <div class="book-cover">
+                                <a class="link" href="javascript:" target="_blank">
+                                    <img src="#" alt="巨星来了">
+                                </a>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="book-wrapper bd0">
+                            <div class="book-info pull-left">
+                                <span class="tag">两晋隋唐</span>
+                                <h4>
+                                    <a href="javascript:" target="_blank">大唐风华路</a>
+                                </h4>
+                                <p class="digital">
+                                    <em>11,580,410</em>人气
+                                </p>
+                                <p class="desc">大唐风华，谁人来领舞。</p>
+                            </div>
+                            <div class="book-cover">
+                                <a class="link" href="javascript:" target="_blank">
+                                    <img src="#" alt="大唐风华路">
+                                </a>
+                                <span></span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="site-map">
+                    <ul>
+                        <li><a href="javascript:">系统简介</a></li>
+                        <li><a href="javascript:">广告服务</a></li>
+                        <li><a href="javascript:">试用洽谈</a></li>
+                        <li><a href="javascript:">网站地图</a></li>
+                        <li><a href="javascript:">联系方式</a></li>
+                        <li><a href="javascript:">关于我们</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    Copyright © 2017 <a href="javascript:">Gallonce</a> , Inc. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/layui/layui.all.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/myFocus/myfocus-2.0.1.min.js"></script>
+
+<script src="js/common.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+    (function () {
+        myFocus.set({
+            id: 'myFocus',//ID
+            pattern: 'mF_fancy'//Style
+        });
+    })();
+</script>
+</body>
+</html>

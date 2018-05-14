@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小说阅读页</title>
+    <!-- 插件样式引入 -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.css">
+
+    <!-- 插件重写样式、公共样式及页面主要样式引入 -->
+    <link rel="stylesheet" href="css/plugins.reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="bg-theme-1 w800">
+<div class="wrapper">
+    <div id="pin-nav" class="pin-nav-wrapper need-search">
+        <div class="container center-block cf">
+            <div class="nav-list site-nav pull-left">
+                <ul>
+                    <li class="site">
+                        <a class="pin-logo" href="javascript:">LOGO</a>
+                    </li>
+                    <li class=""><a href="javascript:" target="#">玄幻</a></li>
+                    <li class=""><a href="javascript:" target="#">都市</a></li>
+                    <li class=""><a href="javascript:" target="#">仙侠</a></li>
+                    <li class=""><a href="javascript:" target="#">科幻</a></li>
+                    <li class=""><a href="javascript:" target="#">游戏</a></li>
+                    <li class=""><a href="javascript:" target="#">历史</a></li>
+                    <li class=""><a href="javascript:" target="_blank">排行</a></li>
+                    <li class="more">
+                        <a href="javascript:" id="top-nav-more" target="#">更多<span class="fa fa-caret-down"></span></a>
+                        <div class="dropdown">
+                            <a href="javascript:" target="_blank">全部作品</a>
+                            <a href="javascript:" target="#">二次元</a>
+                            <a href="javascript:" target="#">奇幻</a>
+                            <a href="javascript:" target="#">武侠</a>
+                            <a href="javascript:" target="#">灵异</a>
+                            <a href="javascript:" target="#">军事</a>
+                            <a href="javascript:" target="#">现实</a>
+                            <a href="javascript:" target="#">体育</a>
+                            <a href="javascript:" target="#">短篇</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-list min-user pull-right">
+                <ul>
+                    <li id="min-search">
+                        <input id="pin-input" class="pin-input" type="text" name="kw" placeholder="天庭小狱卒">
+                        <button class="btn btn-link" id="pin-search"><i class="fa fa-search"></i></button>
+                    </li>
+                    <li class="line"></li>
+                    <li class="sign-out hidden">
+                        <a id="pin-login" href="javascript:">登录</a>
+                        <a class="reg" href="javascript:" target="_blank">注册</a>
+                    </li>
+                    <li class="sign-in">
+                        <a href="javascript:" target="_blank"><i id="nav-user-name">书友20171106094000990</i><span></span></a>
+                        <div class="dropdown">
+                            <a href="javascript:" target="_blank">消息(<i id="top-msg">0</i>)</a>
+                            <a href="javascript:" target="_blank">个人中心</a>
+                            <a id="exit" href="javascript:">退出</a>
+                        </div>
+                    </li>
+                    <li class="line"></li>
+                    <li class="book-shelf" id="top-book-shelf">
+                        <a href="javascript:" target="_blank">
+                            <i class="fa fa-book"></i>
+                            <i>我的书架</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 该隐藏域存储章节ID -->
+    <input id="chapterId" type="hidden" name="chapterId" value="351008237">
+    <div class="read-wrapper">
+        <ol class="crumbs-nav breadcrumb">
+            <li><a href="javascript:">首页</a></li>
+            <li><a href="javascript:">玄幻</a></li>
+            <li class="active" id="bookFlag">穿梭诸天</li>
+        </ol>
+        <div class="body-mark"></div>
+        <div class="read-main-wrapper" id="J_readMainWrapper">
+            <div id="chapter-box">
+                <div class="text-wrapper">
+                    <div class="book-cover-wrapper">
+                        <div class="book-photo">
+                            <img src="images/book.jpg" alt="">
+                        </div>
+                        <h1>穿梭诸天</h1>
+                        <h2>
+                            <a href="javascript:" target="_blank">大日浴东海</a>著
+                        </h2>
+                        <div class="info-list cf">
+                            <ul>
+                                <li><p>玄幻</p><span>类型</span></li>
+                                <li><em>2017.01.10</em><span>上架</span></li>
+                                <li><p><em>183.28</em>万</p><span>连载（字）</span></li>
+                            </ul>
+                        </div>
+                        <h3>与<span>105.44万</span>位书友共同开启《穿梭诸天》的玄幻之旅</h3>
+                        <h5>本书由本网站首发</h5>
+                        <h6>©版权所有 侵权必究</h6>
+                    </div>
+                </div>
+                <div class="text-wrapper">
+                    <div class="main-text-wrapper">
+                        <div class="text-head">
+                            <a class="book-mark" href="javascript:" title="书签"></a>
+                            <h3 class="chapter-name">第一章 融合</h3>
+                            <div class="book-info">
+                                <a href="javascript:" target="_blank"><i></i>穿梭诸天</a>
+
+                                <a href="javascript:" target="_blank"><i></i>大日浴东海</a>
+
+                                <span class="chapter-word-count"><i></i><em>2065</em>字</span>
+                                <span class="update-time"><i class="fa fa-clock-o"></i>2017.01.10 16:14</span>
+                            </div>
+                        </div>
+                        <div class="read-content">
+                            <p>　　夕阳西下，残红如血。</p>
+                            <p>　　树林旁，溪流岸，碎石上一个少年猛地坐起，一阵咳嗽，吐出了几口污水。</p>
+                            <p>　　“好疼！”楚阳皱紧眉头，痛苦不堪，迷糊的眼睛终于看清周围的情况，顿时一呆，“这、这是哪里？我不是刚买一个青铜门的小挂饰，然后返回家中，头一疼就躺在了床上吗？可这……！”</p>
+                            <p>　　剧烈的疼痛传来让他眼前一黑，差点晕过去。</p>
+                            <p>　　这时才发现，左肩上有一个掌印，都陷入肉里一寸之深，稍微动弹，左肩就巨疼钻心，眼前发黑。全身上下，到处都是淤青，凄惨不堪。</p>
+                            <p>　　“我被绑架了？不对，这不是我的身体！”楚阳盯着左手腕，当即一呆，“我的皮肤没有这么白，而且我的左手腕有一个胎记，现在没有了，难道、难道……！”</p>
+                            <p>　　往前艰难的爬了两步，低头观看，水中映照出了面容，哪还是曾经照过千万遍的容颜？虽然年轻了，帅气了，棱角分明了，可心中却十分不安。</p>
+                            <p>　　正在这时，他脸色一白，脑海中就涌出大量的信息，让他抱头惨叫。</p>
+                            <p>　　一幅幅画面，一个个场面，一道道信息，疯狂的融入脑海。</p>
+                            <p>　　过了好一会儿，楚阳才平静下来，额头上满是冷汗，只是此刻，他双眼呆滞，显得迷茫。</p>
+                            <p>　　“我是谁？我是地球上的楚阳，还是天武大陆上的楚阳？”</p>
+                            <p>
+                                　　地球上的楚阳，平平凡凡，普普通通，小学，中学，高中，大学，毕业工作，与亿万大众没有什么区别，过着自己的简单快乐的生活，追寻遥不可及的梦想，闲暇时候，看几部电视剧，浏览网络小说。</p>
+                            <p>　　平凡之中，也有着自己的幸福。</p>
+                            <p>　　天武大陆上的楚阳，是河阳县名门望族楚家的三公子，家境富裕，衣食无忧，却资质奇差，修炼无成，在这个以武为尊的世界被族人看不起，但有一个家主为父亲，倒也没人敢惹他。</p>
+                            <p>　　作为一个二世主，声色犬马，也算有滋有味。</p>
+                            <p>　　然而昨天夜里，潇洒之后，返回家中时，发现有个重伤的和尚正好倒在了府门前，就好心的救了回去。一番救治，和尚也清醒了过来，正在对方道谢时，一群黑衣人杀向了楚家。</p>
+                            <p>　　房屋点燃，火光冲天。</p>
+                            <p>　　黑衣人如入无人之境，家丁奴仆无一合之敌，纷纷惨死，就连在后天后期的大哥和二哥，都被轻易的斩杀，还有后天圆满的爷爷也被一剑枭首。</p>
+                            <p>　　楚阳看了个正着，当即怒火燃烧正要冲杀过去，却被一个黑衣人一掌拍了过来，被赶来的父亲楚天河伸手一拉，躲过了胸口，却落在了肩头，打碎了骨头，差点晕过去。</p>
+                            <p>　　“你们是谁？为何屠戮我楚家？”</p>
+                            <p>　　楚天河悲愤咆哮。</p>
+                            <p>　　房屋燃烧，家人屠戮，父母被杀，儿子被斩，让他心中泣血，杀意冲霄，可也要弄明白，楚家向来和善，没有惹过什么人，怎么就突遭横祸？</p>
+                            <p>　　“蝼蚁之辈，说杀就杀，还需要什么理由？”</p>
+                            <p>　　楚阳就听到了冷漠的回答，有着不屑的讥讽。</p>
+                            <p>　　“你们定然是宗派之人，可恨呐！”</p>
+                            <p>　　楚天河当即明白过来，怒吼一声，就抓住楚阳杀了出去，跑向了后山。然而楚天河虽强，却强不过黑衣人，在山峰上被拦下。</p>
+                            <p>
+                                　　楚阳一直被父亲抓着，清晰的看到偌大的庄园化成了火海，看到了满地的尸体，有疼爱他的爷爷奶奶，有关爱他的两位大哥，有对他不屑的叔叔伯伯，还有时常拌嘴的堂兄弟姐妹，亦有服侍他的两个小丫头，全部都躺在了血泊中，被火焰吞噬。</p>
+                            <p>　　又看着父亲接连受创，却将他紧紧的护住。</p>
+                            <p>　　“我若不死，必将你们屠尽杀绝！”</p>
+                            <p>　　呆滞的楚阳，发下了大誓。</p>
+                            <p>　　山峰上，黑衣人围拢，楚阳呆在父亲身边，眼睛血红。</p>
+                            <p>　　“为什么？到底为什么？给我一个理由？”</p>
+                            <p>　　楚天河仰天悲愤，眸中流血。</p>
+                            <p>　　“嘿嘿，就要让你死不瞑目，赶快杀了他，搜一搜，看看在不在他身上！”</p>
+                            <p>　　其中一个黑衣人冷笑一声，当即吩咐。</p>
+                            <p>
+                                　　楚天河大吼一声，发泄胸中戾气，扭头对着楚阳道：“孩子，你若不死，记住，一定要记住，去县衙报案，去宗人府喊冤。还有，等你有了能力，一定要屠尽宗派之人，将这些无法无天，惑乱天下的恶徒斩尽杀绝！”</p>
+                            <p>　　说罢，就将楚阳扔下了山崖，跌落向滚滚咆哮的河流。</p>
+                            <p>　　跌入河流，陷入黑暗之前，楚阳还听到父亲的怒吼。</p>
+                            <p>　　河流边，乱石上，楚阳呼吸渐渐平稳，眼中的迷茫也开始消散。</p>
+                            <p>　　“我是谁？我到底是谁？是地球上默默无闻的楚阳？还是有着天武大陆上有着灭门之恨的楚阳？”</p>
+                            <p>　　又过了许久，楚阳神色复杂，仰头望天。</p>
+                            <p>　　“吸收了你的完整记忆，也继承了你的一切，我是楚阳，一个名字，两份沉重！”</p>
+                            <p>　　低低一叹，露出了苦笑。</p>
+                            <p>　　如今身躯，早已受创，虽被河流冲上了岸边，但也虚弱之极，若是不及时救治，也活不了多久。</p>
+                            <p>　　“难道刚穿越而来，我就要再死一次？”</p>
+                            <p>　　楚阳露出苦色。</p>
+                            <p>　　吟吟吟……！</p>
+                            <p>　　高空上，传来一声鸣吟，楚阳抬头观看，发现了一只黑羽鸟，在头顶盘旋，锐利的二目紧紧的盯着，让他一阵发寒。</p>
+                            <p>　　“这是追踪鸟！”</p>
+                            <p>　　楚阳继承了前身的记忆，当即知道这种鸟儿有着追踪之能，就是一哆嗦，就见高空黑羽鸟转身而去，转瞬不见。与此同时，他胸口腾起一股狂暴的杀意，让他心神动摇，几不能自控。</p>
+                            <p>
+                                　　“你还没有消散吗？亲眼见哥哥被杀，爷爷奶奶被斩，母亲死亡，族人伤亡殆尽，生活十几年的家园化作火海，别说是你，就是我都会怨气滔天，不甘亡故。”楚阳低低道，“我占据了你的身体，融合了你的记忆，接收了你的一切……当然，也有你的因果，安心离去吧，我若不死，定然承担你的誓言！”</p>
+                            <p>　　楚阳就感觉脑海中传来一阵悲鸣声，紧接着就一阵轻松，他知道，对方彻底的消亡了，将一切都交给了他。</p>
+                            <p>　　“可我，真的能够活下来？”</p>
+                            <p>　　苦涩一笑，就感觉天旋地转，楚阳蓦然发现，他来到了一座十分熟悉的青铜门前。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chapter-control">
+                <a id="j_chapterPrev" href="javascript:">上一章</a><span>|</span>
+                <a href="javascript:" target="_blank">目录</a><span>|</span>
+                <a id="j_chapterNext" href="javascript:">下一章</a>
+            </div>
+        </div>
+        <div class="float-wrapper cf">
+            <div class="left-bar-list" id="J_leftBarList">
+                <dl>
+                    <dd id="J_navCatalogBtn" data-target="catalog">
+                        <a href="javascript:">
+                            <i class="fa fa-list"></i>
+                            <span>目录</span>
+                        </a>
+                    </dd>
+                    <dd id="J_navSettingBtn" data-target="setting">
+                        <a href="javascript:">
+                            <i class="fa fa-cog"></i>
+                            <span>设置</span>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:">
+                            <i class="fa fa-book"></i>
+                            <span>书架</span>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:" target="_blank">
+                            <i class="fa fa-book"></i>
+                            <span>书页</span>
+                        </a>
+                    </dd>
+                </dl>
+                <div class="panel-wrapper catalog" id="J_catalog">
+                    <a class="close-panel" href="javascript:"><i class="fa fa-close"></i></a>
+                    <div class="panel-box">
+                        <div class="catalog-tab" id="J_catalogTab">
+                            <span class="lang active">目录</span>
+                        </div>
+                        <div id="J_catalogTabWrap">
+                            <div class="panel-list-wrapper catalog-scroll-wrapper" id="J_catalogListWrapper">
+                                <div class="catalog-list-wrapper">
+                                    <h3 class="active">
+                                        <i>
+                                            <em class="fa fa-chevron-up"></em>
+                                            <em class="fa fa-chevron-down"></em>
+                                            <cite>作品相关</cite>
+                                        </i>
+                                    </h3>
+                                    <div class="volume-list" style="display: block;">
+                                        <ul>
+                                            <li id="nav-chapter-366985478" class="on">
+                                                <a href="#">停电，无更</a>
+                                            </li>
+                                            <li id="nav-chapter-392717820">
+                                                <a href="#">第十四章</a>
+                                            </li>
+                                            <li id="nav-chapter-392717965">
+                                                <a href="#">第219章</a>
+                                            </li>
+                                            <li id="nav-chapter-392718027">
+                                                <a href="#">第237章</a>
+                                            </li>
+                                            <li id="nav-chapter-392719299">
+                                                <a href="#">第242章</a>
+                                            </li>
+                                            <li id="nav-chapter-392719356">
+                                                <a href="#">第275章</a>
+                                            </li>
+                                            <li id="nav-chapter-392717821">
+                                                <a href="#">第十四章</a>
+                                            </li>
+                                            <li id="nav-chapter-392717966">
+                                                <a href="#">第219章</a>
+                                            </li>
+                                            <li id="nav-chapter-392718028">
+                                                <a href="#">第237章</a>
+                                            </li>
+                                            <li id="nav-chapter-392719290">
+                                                <a href="#">第242章</a>
+                                            </li>
+                                            <li id="nav-chapter-392719357">
+                                                <a href="#">第275章</a>
+                                            </li>
+                                            <li id="nav-chapter-392717822">
+                                                <a href="#">第十四章</a>
+                                            </li>
+                                            <li id="nav-chapter-392717967">
+                                                <a href="#">第219章</a>
+                                            </li>
+                                            <li id="nav-chapter-392718029">
+                                                <a href="#">第237章</a>
+                                            </li>
+                                            <li id="nav-chapter-392719291">
+                                                <a href="#">第242章</a>
+                                            </li>
+                                            <li id="nav-chapter-392719358">
+
+                                                <a href="#">第275章</a>
+                                            </li>
+                                            <li id="nav-chapter-392717823">
+                                                <a href="#">第十四章</a>
+                                            </li>
+                                            <li id="nav-chapter-392717968">
+                                                <a href="#">第219章</a>
+                                            </li>
+                                            <li id="nav-chapter-392718020">
+                                                <a href="#">第237章</a>
+                                            </li>
+                                            <li id="nav-chapter-392719292">
+                                                <a href="#">第242章</a>
+                                            </li>
+                                            <li id="nav-chapter-392719359">
+                                                <a href="#">第275章</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <h3>
+                                        <i>
+                                            <em class="fa fa-chevron-up"></em>
+                                            <em class="fa fa-chevron-down"></em>
+                                            <cite>正文卷</cite>
+                                        </i>
+                                    </h3>
+                                    <div class="volume-list" style="display: none;">
+                                        <ul>
+                                            <li id="nav-chapter-350563966">
+                                                <a href="#">第一章
+                                                    重生</a>
+                                            </li>
+                                            <li id="nav-chapter-350622702">
+                                                <a href="#">第二章
+                                                    决定</a>
+                                            </li>
+                                            <li id="nav-chapter-350679457">
+                                                <a href="#">第三章
+                                                    重生之大明星</a>
+                                            </li>
+                                            <li id="nav-chapter-350699236">
+                                                <a href="#">第四章
+                                                    必须得签约</a>
+                                            </li>
+                                            <li id="nav-chapter-350764737">
+                                                <a href="#">第五章
+                                                    签约</a>
+                                            </li>
+                                            <li id="nav-chapter-350851203">
+                                                <a href="#">第六章
+                                                    打印</a>
+                                            </li>
+                                            <li id="nav-chapter-350866737">
+                                                <a href="#">第七章
+                                                    我竟然有女朋友……</a>
+                                            </li>
+                                            <li id="nav-chapter-350937502">
+                                                <a href="#">第八章
+                                                    查询</a>
+                                            </li>
+                                            <li id="nav-chapter-351008237">
+                                                <a href="#">第九章
+                                                    王宇</a>
+                                            </li>
+                                            <li id="nav-chapter-351076080">
+                                                <a href="#">第10章
+                                                    江天</a>
+                                            </li>
+                                            <li id="nav-chapter-351153985">
+                                                <a href="#">第11章
+                                                    宣布</a>
+                                            </li>
+                                            <li id="nav-chapter-351223459">
+                                                <a href="#">第12章
+                                                    谁说我们不参赛的</a>
+                                            </li>
+                                            <li id="nav-chapter-351288312">
+                                                <a href="#">第13章.
+                                                    没得选择</a>
+                                            </li>
+                                            <li id="nav-chapter-351397378">
+                                                <a href="#">第15章
+                                                    （2）</a>
+                                            </li>
+                                            <li id="nav-chapter-351563066">
+                                                <a href="#">第16章
+                                                    火爆</a>
+                                            </li>
+                                            <li id="nav-chapter-351632614">
+                                                <a href="#">第17章
+                                                    恐怖如斯</a>
+                                            </li>
+                                            <li id="nav-chapter-351481342">
+                                                <a href="#">第18章
+                                                    老男孩</a>
+                                            </li>
+                                            <li id="nav-chapter-351733254">
+                                                <a href="#">第19章
+                                                    错觉</a>
+                                            </li>
+                                            <li id="nav-chapter-352653452">
+                                                <a href="#">第20章
+                                                    我还是继续睡吧</a>
+                                            </li>
+                                            <li id="nav-chapter-351482202">
+                                                <a href="#">第21章
+                                                    开挂了吧</a>
+                                            </li>
+                                            <li id="nav-chapter-351559918">
+                                                <a href="#">第22章
+                                                    议定</a>
+                                            </li>
+                                            <li id="nav-chapter-351561232">
+                                                <a href="#">第23章
+                                                    额，又是你</a>
+                                            </li>
+                                            <li id="nav-chapter-351639304">
+                                                <a href="#">第24章
+                                                    积极了</a>
+                                            </li>
+                                            <li id="nav-chapter-352983574">
+                                                <a href="#">第
+                                                    25章 好戏</a>
+                                            </li>
+                                            <li id="nav-chapter-353189800">
+                                                <a href="#">第26章
+                                                    反击</a>
+                                            </li>
+                                            <li id="nav-chapter-353798631">
+                                                <a href="#">第27章
+                                                    开始</a>
+                                            </li>
+                                            <li id="nav-chapter-354296848">
+                                                <a href="#">第28章
+                                                    了不得</a>
+                                            </li>
+                                            <li id="nav-chapter-354374599">
+                                                <a href="#">第29章
+                                                    又见单章</a>
+                                            </li>
+                                            <li id="nav-chapter-354431478">
+                                                <a href="#">第30章
+                                                    胜</a>
+                                            </li>
+                                            <li id="nav-chapter-354495232">
+                                                <a href="#">第31章
+                                                    吃穷你</a>
+                                            </li>
+                                            <li id="nav-chapter-354537088">
+                                                <a href="#">第32章
+                                                    拒绝标题党</a>
+                                            </li>
+                                            <li id="nav-chapter-354575993">
+                                                <a href="#">第33章
+                                                    发送</a>
+                                            </li>
+                                            <li id="nav-chapter-354621875">
+                                                <a href="#">第34章
+                                                    文娱流</a>
+                                            </li>
+                                            <li id="nav-chapter-354657993">
+                                                <a href="#">第35章
+                                                    新闻</a>
+                                            </li>
+                                            <li id="nav-chapter-354707757">
+                                                <a href="#">第36章
+                                                    给十分</a>
+                                            </li>
+                                            <li id="nav-chapter-354733425">
+                                                <a href="#">第37章
+                                                    妥协</a>
+                                            </li>
+                                            <li id="nav-chapter-354778238">
+                                                <a href="#">第38章
+                                                    我就喜欢</a>
+                                            </li>
+                                            <li id="nav-chapter-354813329">
+                                                <a href="#">第39章
+                                                    得意的江天</a>
+                                            </li>
+                                            <li id="nav-chapter-354901292">
+                                                <a href="#">第40章
+                                                    又是麻辣烫</a>
+                                            </li>
+                                            <li id="nav-chapter-354944128">
+                                                <a href="#">第41章
+                                                    谢谢！</a>
+                                            </li>
+                                            <li id="nav-chapter-354992433">
+                                                <a href="#">第42章
+                                                    播出</a>
+                                            </li>
+                                            <li id="nav-chapter-355081481">
+                                                <a href="#">第43章
+                                                    神了</a>
+                                            </li>
+                                            <li id="nav-chapter-355169228">
+                                                <a href="#">第44章
+                                                    毁</a>
+                                            </li>
+                                            <li id="nav-chapter-355215426">
+                                                <a href="#">第45章
+                                                    快意</a>
+                                            </li>
+                                            <li id="nav-chapter-355248237">
+                                                <a href="#">第46章
+                                                    上传</a>
+                                            </li>
+                                            <li id="nav-chapter-355327990">
+                                                <a href="#">第47章
+                                                    这个人有毒</a>
+                                            </li>
+                                            <li id="nav-chapter-355407605">
+                                                <a href="#">第48章
+                                                    数据库</a>
+                                            </li>
+                                            <li id="nav-chapter-355485344">
+                                                <a href="#">第49章
+                                                    吃错药的老头</a>
+                                            </li>
+                                            <li id="nav-chapter-356272466">
+                                                <a href="#">第50章
+                                                    打算</a>
+                                            </li>
+                                            <li id="nav-chapter-375223871">
+                                                <a href="#">上架感言</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- end 卷列表 -->
+                                </div>
+                            </div>
+                            <!-- end 目录列表 -->
+
+                        </div>
+                        <!-- end 目录书签切换容器-->
+                    </div>
+                </div>
+                <div class="panel-wrapper setting" id="J_setting">
+                    <a class="close-panel setting-close" href="javascript:"><i class="fa fa-close"></i></a>
+                    <div class="panel-box">
+                        <h4 class="lang">设置</h4>
+                        <div class="setting-list-wrap">
+                            <ul>
+                                <li class="theme-list" id="J_themeList">
+                                    <i>阅读主题</i>
+                                    <span title="默认" class="theme-0 active" data-index="1"></span>
+                                    <span title="牛皮纸" class="theme-1" data-index="2"></span>
+                                    <span title="淡绿色" class="theme-2" data-index="3"></span>
+                                    <span title="淡蓝色" class="theme-3" data-index="4"></span>
+                                    <span title="灰色" class="theme-5" data-index="5"></span>
+                                    <span title="黑色" class="theme-6" data-index="6"></span>
+                                </li>
+                                <li class="font-family" id="J_fontFamily"><i>正文字体</i>
+
+                                    <span class="yahei active" data-index="1">雅黑</span>
+
+                                    <span class="yahei " data-index="2">宋体</span>
+
+                                    <span class="yahei " data-index="3">楷书</span>
+
+
+                                </li>
+                                <li class="font-size" id="J_fontSize"><i>字体大小</i>
+                                    <cite>
+                                        <span class="prev"><em class="fa fa-minus"></em></span>
+                                        <b></b>
+                                        <span class="lang">18</span>
+                                        <b></b>
+                                        <span class="next"><em class="fa fa-plus"></em></span>
+                                    </cite>
+                                </li>
+                                <li class="page-width" id="J_pageWidth">
+                                    <i>页面宽度</i>
+                                    <cite>
+                                        <span class="prev"><em class="fa fa-minus"></em></span>
+                                        <b></b>
+                                        <span class="lang">800</span>
+                                        <b></b>
+                                        <span class="next"><em class="fa fa-plus"></em></span>
+                                    </cite>
+                                </li>
+                            </ul>
+                            <div class="btn-wrapper">
+                                <a class="red-btn" id="J_setSave" href="javascript:">保存</a>
+                                <a class="grey-btn" id="J_setCancel" href="javascript:">取消</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-bar-list" id="J_rightBarList">
+                <dl>
+                    <dd id="J_comment">
+                        <a href="javascript:">
+                            <i class="fa fa-commenting"></i>
+                            <span>评论</span>
+                        </a>
+                    </dd>
+                    <dd class="backTop" id="J_goTop">
+                        <a href="javascript:">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div id="J_commentWrapper">
+        <div class="comment-text-wrap">
+            <h3><span>评</span>第001章 锻造系统</h3>
+            <div class="count-text">
+                <span class="count"><em id="J_commentCounter">0</em>/200</span>
+                <textarea id="J_commentText" placeholder="请点击输入评论内容"></textarea>
+            </div>
+            <p><a class="red-btn" id="J_chapterReply" href="javascript:">发表评论</a></p>
+        </div>
+    </div>
+</div>
+
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/layui/layui.all.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/main.js"></script>
+<script src="js/chapter.js"></script>
+</body>
+</html>

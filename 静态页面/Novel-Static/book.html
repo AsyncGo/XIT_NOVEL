@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小说详情页</title>
+    <!-- 插件样式引入 -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.css">
+
+    <!-- 插件重写样式、公共样式及页面主要样式引入 -->
+    <link rel="stylesheet" href="css/plugins.reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="wrapper">
+    <div id="pin-nav" class="pin-nav-wrapper need-search">
+        <div class="container center-block cf">
+            <div class="nav-list site-nav pull-left">
+                <ul>
+                    <li class="site">
+                        <a class="pin-logo" href="javascript:">LOGO</a>
+                    </li>
+                    <li class=""><a href="javascript:" target="#">玄幻</a></li>
+                    <li class=""><a href="javascript:" target="#">都市</a></li>
+                    <li class=""><a href="javascript:" target="#">仙侠</a></li>
+                    <li class=""><a href="javascript:" target="#">科幻</a></li>
+                    <li class=""><a href="javascript:" target="#">游戏</a></li>
+                    <li class=""><a href="javascript:" target="#">历史</a></li>
+                    <li class=""><a href="javascript:" target="_blank">排行</a></li>
+                    <li class="more">
+                        <a href="javascript:" id="top-nav-more" target="#">更多<span class="fa fa-caret-down"></span></a>
+                        <div class="dropdown">
+                            <a href="javascript:" target="_blank">全部作品</a>
+                            <a href="javascript:" target="#">二次元</a>
+                            <a href="javascript:" target="#">奇幻</a>
+                            <a href="javascript:" target="#">武侠</a>
+                            <a href="javascript:" target="#">灵异</a>
+                            <a href="javascript:" target="#">军事</a>
+                            <a href="javascript:" target="#">现实</a>
+                            <a href="javascript:" target="#">体育</a>
+                            <a href="javascript:" target="#">短篇</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-list min-user pull-right">
+                <ul>
+                    <li id="min-search">
+                        <input id="pin-input" class="pin-input" type="text" name="kw" placeholder="天庭小狱卒">
+                        <button class="btn btn-link" id="pin-search"><i class="fa fa-search"></i></button>
+                    </li>
+                    <li class="line"></li>
+                    <li class="sign-out">
+                        <a id="pin-login" href="javascript:">登录</a>
+                        <a class="reg" href="javascript:" target="_blank">注册</a>
+                    </li>
+                    <li class="sign-in hidden">
+                        <a href="javascript:" target="_blank"><i id="nav-user-name">书友20171106094000990</i><span></span></a>
+                        <div class="dropdown">
+                            <a href="javascript:" target="_blank">消息(<i id="top-msg">0</i>)</a>
+                            <a href="javascript:" target="_blank">个人中心</a>
+                            <a id="exit" href="javascript:">退出</a>
+                        </div>
+                    </li>
+                    <li class="line"></li>
+                    <li class="book-shelf" id="top-book-shelf">
+                        <a href="javascript:" target="_blank">
+                            <i class="fa fa-book"></i>
+                            <i>我的书架</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="top-bg-box " id="j-topBgBox" style="background-image:url('images/banner.jpg')">
+    </div>
+    <div class="border-shadow" style="margin-top: 179px;">
+        <span></span>
+        <span></span>
+    </div>
+    <div class="book-detail-wrapper w990">
+        <div class="book-information cf">
+            <div class="book-img">
+                <a class="J-getJumpUrl" id="bookImg" href="javascript:"><img src="#"></a>
+            </div>
+            <div class="book-info ">
+                <h1>
+                    <em>白袍总管</em>
+                    <span>
+                        <a class="writer" href="javascript:" target="_blank">萧舒</a> 著
+                    </span>
+                </h1>
+                <p class="tag"><span class="blue">连载</span>
+                    <a href="javascript:" class="red" target="_blank">武侠</a>
+                    <a href="javascript:" class="red" target="_blank">武侠幻想</a>
+                </p>
+                <p class="intro">身怀佛家神通，进入国公府成为杂役，江湖之中，庙堂之上，英雄壮歌</p>
+                <p>
+                    <em>584.11</em>
+                    <cite>万字</cite>
+                    <i>|</i>
+                    <em>196.56</em>
+                    <cite>
+                        万总点击<span>·</span>会员周点击4.14万
+                    </cite>
+                    <i>|</i>
+                    <em>184.23</em>
+                    <cite>
+                        万总推荐<span>·</span>周4972
+                    </cite>
+                </p>
+                <p>
+                    <a class="red-btn J-getJumpUrl " href="chapter.html" id="readBtn">免费试读</a>
+                    <a class="blue-btn add-book" id="addBookBtn" href="javascript:">加入书架</a>
+                </p>
+            </div>
+        </div>
+        <div class="content-nav-wrapper cf">
+            <div class="tab nav-wrapper pull-left">
+                <ul>
+                    <li class="active" data-target="bookContenWrapper">
+                        <a class="lang" id="j-bookInfoPage" href="javascript:">作品信息</a>
+                    </li>
+                    <li class="J_catalog_block" data-target="catalogWrapper">
+                        <a class="lang" href="javascript:" id="j_catalogPage">
+                            目录<i><span id="J-catalogCount">(2726章)</span></i>
+                        </a>
+                    </li>
+
+                    <li class="J_comment_block" data-target="userCommentWrapper">
+                        <a class="lang" href="javascript:">
+                            作品讨论<i><span id="J-discusCount">(139968条)</span></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="tab-pane catalog-content-wrapper" id="catalogWrapper">
+            <!-- start 目录分卷 -->
+            <div class="volume-wrapper">
+                <div class="volume">
+                    <div class="cover"></div>
+                    <h3>
+                        <a class="subscri" href="javascript:" target="_blank"></a>
+                        作品相关<i>·</i>共2章<span class="free"> 免费</span><em class="count">本卷共<cite>450</cite>字</em></h3>
+                    <ul class="cf">
+
+                        <li>
+                            <a href="javascript:" target="_blank" title="首发时间：2016-10-28 12:40:04 章节字数：193">全渠道感言</a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:" target="_blank" title="首发时间：2016-12-12 22:06:54 章节字数：257">十二天王感言</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end 目录分卷 -->
+            <!-- start 目录分卷 -->
+            <div class="volume-wrapper">
+                <div class="volume">
+                    <div class="cover"></div>
+                    <h3>
+                        <a class="subscribe j_subscribe" href="javascript:"></a>
+                        正文<i>·</i>共2593章<span class="vip"> VIP</span><em class="count">本卷共<cite>5506133</cite>字</em>
+                    </h3>
+                    <ul class="cf">
+                        <li>
+                            <a href="javascript:" target="_blank" title="首发时间：2016-04-01 06:09:22 章节字数：2040">第127章 现身</a>
+                            <em class="fa fa-lock "></em>
+                        </li>
+                        <li>
+                            <a href="javascript:" target="_blank" title="首发时间：2016-04-01 06:10:05 章节字数：2242">第128章 招揽</a>
+                            <em class="fa fa-lock "></em>
+                        </li>
+                        <li>
+                            <a href="javascript:" target="_blank" title="首发时间：2016-04-01 06:12:25 章节字数：2112">第129章 报信</a>
+                            <em class="fa fa-lock "></em>
+                        </li>
+                        <li>
+                            <a href="javascript:" target="_blank" title="首发时间：2016-04-01 13:22:36 章节字数：2290">第130章 再劝</a>
+                            <em class="fa fa-lock "></em>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end 目录分卷 -->
+        </div>
+        <div class="tab-pane book-content-wrapper cf active" id="bookContenWrapper">
+            <div class="left-wrapper pull-left">
+                <div class="book-info-detail">
+                    <cite class="icon-pin"></cite>
+                    <div class="book-intro">
+                        <p>
+                            　　身怀佛家神通，进入国公府成为杂役，江湖之中，庙堂之上，儿女情长，英雄壮歌。<br>　　VIP群：129395774，全订可进。
+                        </p>
+                    </div>
+                    <div class="book-state">
+                        <ul>
+                            <li>
+                                <b>作者自定义标签</b>
+                                <div class="detail">
+                                    <p class="tag-wrapper">
+                                        <a class="tags" href="javascript:" target="_blank">丹药</a>
+                                        <a class="tags" href="javascript:" target="_blank">凡人流</a>
+                                        <a class="tags" href="javascript:" target="_blank">淡定</a>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="update">
+                                <b>最近更新</b>
+                                <div class="detail">
+                                    <p class="cf">
+                                        <a class="blue" href="javascript:" title="第2699章 师兄（一更）" target="_blank">第2699章 师兄（一更）</a><i>·</i><em class="time">今天12:52更新</em>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="like-more mb30 cf">
+                    <h3 class="lang">喜欢这本书的人还喜欢</h3>
+                    <div class="like-more-list">
+                        <ul class="cf">
+                            <li>
+                                <div class="book-img" title="能穿越的修行者">
+                                    <a href="javascript:" target="_blank">
+                                        <img class="lazy" src="//qidian.qpic.cn/qdbimg/349573/1005317872/90" alt="能穿越的修行者" style="display: inline;">
+                                    </a>
+                                </div>
+                                <h4>
+                                    <a href="javascript:" target="_blank" title="能穿越的修行者">能穿越的修行者</a>
+                                </h4>
+                                <p>80%的用户读过</p>
+                            </li>
+
+                            <li>
+                                <div class="book-img" title="小妖不上天">
+                                    <a href="javascript:" target="_blank">
+                                        <img class="lazy" src="//qidian.qpic.cn/qdbimg/349573/1005373310/90" alt="小妖不上天" style="display: inline;">
+                                    </a>
+                                </div>
+                                <h4>
+                                    <a href="javascript:" target="_blank" title="小妖不上天">小妖不上天</a>
+                                </h4>
+                                <p>81%的用户读过</p>
+                            </li>
+
+                            <li>
+                                <div class="book-img" title="神道纵横异世">
+                                    <a href="javascript:" target="_blank">
+                                        <img class="lazy" src="//qidian.qpic.cn/qdbimg/349573/1010709826/90" alt="神道纵横异世" style="display: inline;">
+                                    </a>
+                                </div>
+                                <h4>
+                                    <a href="javascript:" target="_blank" title="神道纵横异世">神道纵横异世</a>
+                                </h4>
+                                <p>79%的用户读过</p>
+                            </li>
+
+                            <li>
+                                <div class="book-img" title="穿入诸天">
+                                    <a href="javascript:" target="_blank">
+                                        <img class="lazy" src="//qidian.qpic.cn/qdbimg/349573/1010126921/90" alt="穿入诸天" style="display: inline;">
+                                    </a>
+                                </div>
+                                <h4>
+                                    <a href="javascript:" target="_blank" title="穿入诸天">穿入诸天</a>
+                                </h4>
+                                <p>77%的用户读过</p>
+                            </li>
+
+                            <li>
+                                <div class="book-img" title="蜀山旁门之祖">
+                                    <a href="javascript:" target="_blank">
+                                        <img class="lazy" src="//qidian.qpic.cn/qdbimg/349573/2066661/90" alt="蜀山旁门之祖" style="display: inline;">
+                                    </a>
+                                </div>
+                                <h4>
+                                    <a href="javascript:" target="_blank" title="蜀山旁门之祖">蜀山旁门之祖</a>
+                                </h4>
+                                <p>89%的用户读过</p>
+                            </li>
+
+                            <li>
+                                <div class="book-img" title="极道魔主">
+                                    <a href="javascript:" target="_blank">
+                                        <img class="lazy" src="//qidian.qpic.cn/qdbimg/349573/1010775435/90" alt="极道魔主" style="display: inline;">
+                                    </a>
+                                </div>
+                                <h4>
+                                    <a href="javascript:" target="_blank" title="极道魔主">极道魔主</a>
+                                </h4>
+                                <p>76%的用户读过</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right-wrapper pull-right">
+                <div class="book-list-wrapper mb10">
+                    <div class="strongrec-list">
+                        <h3 class="wrapper-title lang">本周强推</h3>
+                        <div class="book-list">
+                            <ul>
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="武当掌门">武当掌门</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="极道魔主">极道魔主</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="锦衣卫之耀武扬威">锦衣卫之耀武扬威</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="侠武大宋">侠武大宋</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="大宋之道主天下">大宋之道主天下</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="诸天仗剑行">诸天仗剑行</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="大武侠小皇帝">大武侠小皇帝</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="武道巨星">武道巨星</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="剑行山河">剑行山河</a>
+                                    </strong>
+                                </li>
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>传统武侠
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="无限之万界争锋">无限之万界争锋</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="break-rules-report cf">
+                    <i class="fa fa-warning icon-warning"></i>
+                    <a href="javascript:" target="_blank">举报违规有奖</a>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane user-commentWrapper cf" id="userCommentWrapper">
+            <div class="left-wrapper pull-left">
+                <div class="user-comment-wrapper book-friend">
+                    <div class="comment-head cf">
+                        <h3 class="lang">
+                            <span class="j_godiscuss">书友评价</span><i class="grey">|</i><span class="grey">Comment</span>
+                        </h3>
+                    </div>
+                    <div class="user-discuss" id="userDiscuss">
+                        <div class="book-discuss-wrapper">
+                            <div class="discuss-list">
+                                <ul>
+                                    <li class="cf ">
+                                        <div class="user-photo">
+                                            <a href="javascript:" target="_blank">
+                                                <img src="#">
+                                            </a>
+                                        </div>
+                                        <div class="discuss-info">
+                                            <p class="users">
+                                                <a class="blue" href="javascript:"><b>闲淡散鱼</b></a><span class="gray">发表了评论</span>
+                                            </p>
+                                            <h5 class="text">
+                                                <a href="javascript:">
+                                                    好久没写书评了，今天有时间突然想说几句。白袍这本书虽然不是
+                                                </a>
+                                            </h5>
+                                            <p class="info dib-wrapper">
+                                                <span class="mr20">2017-12-17</span>
+                                            </p>
+                                            <div class="author-reply">
+                                                <p>作者回复：</p>
+                                                <p class="reply-content">
+                                                    会很乱吗？不会吧
+                                                </p>
+                                                <p class="text-left time">2017-12-17</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="cf ">
+                                        <div class="user-photo">
+                                            <a href="javascript:" target="_blank">
+                                                <img src="#">
+                                            </a>
+                                        </div>
+                                        <div class="discuss-info">
+                                            <p class="users">
+                                                <a class="blue" href="javascript:"><b>闲淡散鱼</b></a><span class="gray">发表了评论</span>
+                                            </p>
+                                            <h5 class="text">
+                                                <a href="javascript:">
+                                                    好久没写书评了，今天有时间突然想说几句。白袍这本书虽然不是
+                                                </a>
+                                            </h5>
+                                            <p class="info dib-wrapper">
+                                                <span class="mr20">2017-12-17</span>
+                                            </p>
+                                            <div class="author-reply">
+                                                <p>作者回复：</p>
+                                                <p class="reply-content">
+                                                    会很乱吗？不会吧
+                                                </p>
+                                                <p class="text-left time">2017-12-17</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="cf ">
+                                        <div class="user-photo">
+                                            <a href="javascript:" target="_blank">
+                                                <img src="#">
+                                            </a>
+                                        </div>
+                                        <div class="discuss-info">
+                                            <p class="users">
+                                                <a class="blue" href="javascript:"><b>闲淡散鱼</b></a><span class="gray">发表了评论</span>
+                                            </p>
+                                            <h5 class="text">
+                                                <a href="javascript:">
+                                                    好久没写书评了，今天有时间突然想说几句。白袍这本书虽然不是
+                                                </a>
+                                            </h5>
+                                            <p class="info dib-wrapper">
+                                                <span class="mr20">2017-12-17</span>
+                                            </p>
+                                            <div class="author-reply">
+                                                <p>作者回复：</p>
+                                                <p class="reply-content">
+                                                    会很乱吗？不会吧
+                                                </p>
+                                                <p class="text-left time">2017-12-17</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-wrapper pull-right">
+                <div class="book-list-wrapper mb10">
+                    <div class="strongrec-list">
+                        <h3 class="wrapper-title lang">本周强推</h3>
+                        <div class="book-list">
+                            <ul>
+
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="武当掌门">武当掌门</a>
+                                    </strong>
+                                </li>
+
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="极道魔主">极道魔主</a>
+                                    </strong>
+                                </li>
+
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="锦衣卫之耀武扬威">锦衣卫之耀武扬威</a>
+                                    </strong>
+                                </li>
+
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="侠武大宋">侠武大宋</a>
+                                    </strong>
+                                </li>
+
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="大宋之道主天下">大宋之道主天下</a>
+                                    </strong>
+                                </li>
+
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="诸天仗剑行">诸天仗剑行</a>
+                                    </strong>
+                                </li>
+
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="大武侠小皇帝">大武侠小皇帝</a>
+                                    </strong>
+                                </li>
+
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="武道巨星">武道巨星</a>
+                                    </strong>
+                                </li>
+
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>武侠幻想
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="剑行山河">剑行山河</a>
+                                    </strong>
+                                </li>
+
+                                <li>
+                                    <a class="channel" href="javascript:" target="_blank">
+                                        <em>「</em>传统武侠
+                                        <em>」</em>
+                                    </a>
+                                    <strong>
+                                        <a class="name" href="javascript:" target="_blank" title="无限之万界争锋">无限之万界争锋</a>
+                                    </strong>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="break-rules-report cf">
+                    <i class="fa fa-warning icon-warning"></i>
+                    <a href="javascript:" target="_blank">举报违规有奖</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="site-map">
+                    <ul>
+                        <li><a href="javascript:">系统简介</a></li>
+                        <li><a href="javascript:">广告服务</a></li>
+                        <li><a href="javascript:">试用洽谈</a></li>
+                        <li><a href="javascript:">网站地图</a></li>
+                        <li><a href="javascript:">联系方式</a></li>
+                        <li><a href="javascript:">关于我们</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    Copyright © 2017 <a href="javascript:">Gallonce</a> , Inc. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/layui/layui.all.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

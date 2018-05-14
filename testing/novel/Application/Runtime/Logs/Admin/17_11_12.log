@@ -1,0 +1,1723 @@
+[ 2017-11-12T00:00:02+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_upload_img` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `hxb_upload_img` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 130 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:00:03+08:00 ] 127.0.0.1 /Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hxb_admin` [ RunTime:0.0070s ]
+SQL: select VERSION() as version [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:00:13+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:00:15+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_upload_img` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `hxb_upload_img` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 130 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-12T00:00:15+08:00 ] 127.0.0.1 /Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `hxb_admin` [ RunTime:0.0060s ]
+SQL: select VERSION() as version [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-12T00:00:16+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_upload_img` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `hxb_upload_img` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 130 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-12T00:00:16+08:00 ] 127.0.0.1 /Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_admin` [ RunTime:0.0070s ]
+SQL: select VERSION() as version [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:00:26+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:00:36+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:00:46+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:00:56+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:01:06+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:01:16+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0210s ]
+
+[ 2017-11-12T00:01:26+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:01:36+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:01:46+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:01:56+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:02:06+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:02:16+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:02:26+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:02:36+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:02:46+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:02:56+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:03:06+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:03:16+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:03:25+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hxb_upload_img` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `hxb_upload_img` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 130 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-12T00:03:25+08:00 ] 127.0.0.1 /Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_admin` [ RunTime:0.0190s ]
+SQL: select VERSION() as version [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:03:35+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:03:45+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:03:55+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:04:05+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:04:09+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_upload_img` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `hxb_upload_img` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 130 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:04:09+08:00 ] 127.0.0.1 /Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_admin` [ RunTime:0.0160s ]
+SQL: select VERSION() as version [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:04:15+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_upload_img` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `hxb_upload_img` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: vo F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 130 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:04:16+08:00 ] 127.0.0.1 /Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_admin` [ RunTime:0.0170s ]
+SQL: select VERSION() as version [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:04:26+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:04:36+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:04:46+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:04:56+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:05:06+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:05:08+08:00 ] 127.0.0.1 /Admin/Message/messageList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: p F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\MessageController.class.php 第 34 行.
+SQL: SELECT * FROM `hxb_message` LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 6 for Admin\Controller\BaseController::getPage(), called in F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\MessageController.class.php on line 44 and defined F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\BaseController.class.php 第 50 行.
+NOTIC: [8] Undefined variable: map F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\BaseController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.032002s ]
+NOTIC: [8] Undefined variable: status F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\1cadba31177f97864f5692afc3ef1bde.php 第 35 行.
+NOTIC: [8] Undefined variable: status F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\1cadba31177f97864f5692afc3ef1bde.php 第 36 行.
+NOTIC: [8] Undefined variable: title F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\1cadba31177f97864f5692afc3ef1bde.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.032002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:05:14+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_upload_img` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `hxb_upload_img` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 130 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:05:14+08:00 ] 127.0.0.1 /Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_admin` [ RunTime:0.0070s ]
+SQL: select VERSION() as version [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:05:24+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:05:34+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:11:43+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-12T00:11:43+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: CMS F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\PublicController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:11:43+08:00 ] 127.0.0.1 /Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:11:43+08:00 ] 127.0.0.1 /Admin/Public/verify/a/0.8595615278100404
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:11:53+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hxb_admin` WHERE `username` = 'zwj' AND `userpass` = '778303046551bbc407c3c374fff8c64d' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-12T00:11:54+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: CMS F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\PublicController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:11:54+08:00 ] 127.0.0.1 /Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:11:54+08:00 ] 127.0.0.1 /Admin/Public/verify/a/0.4277387736395941
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:12:03+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `hxb_admin` WHERE `username` = 'hxb' AND `userpass` = '72b6ba460073969243c24a440b7a29d4' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:12:03+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_upload_img` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `hxb_upload_img` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 130 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-12T00:12:04+08:00 ] 127.0.0.1 /Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_admin` [ RunTime:0.0050s ]
+SQL: select VERSION() as version [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:12:08+08:00 ] 127.0.0.1 /Admin/Message/messageList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: p F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\MessageController.class.php 第 34 行.
+SQL: SELECT * FROM `hxb_message` LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 6 for Admin\Controller\BaseController::getPage(), called in F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\MessageController.class.php on line 44 and defined F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\BaseController.class.php 第 50 行.
+NOTIC: [8] Undefined variable: map F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\BaseController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.028002s ]
+NOTIC: [8] Undefined variable: status F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\1cadba31177f97864f5692afc3ef1bde.php 第 35 行.
+NOTIC: [8] Undefined variable: status F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\1cadba31177f97864f5692afc3ef1bde.php 第 36 行.
+NOTIC: [8] Undefined variable: title F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\1cadba31177f97864f5692afc3ef1bde.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.025001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:12:11+08:00 ] 127.0.0.1 /Admin/Book/bookChapterList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: p F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\BookController.class.php 第 210 行.
+NOTIC: [8] Undefined index: book_id F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\BookController.class.php 第 219 行.
+NOTIC: [8] Undefined index: book_name F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\BookController.class.php 第 222 行.
+SQL: SELECT * FROM `hxb_book_chapter` WHERE `status` = 0 AND `trash` = 0 LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 AND `trash` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 6 for Admin\Controller\BaseController::getPage(), called in F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\BookController.class.php on line 232 and defined F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\BaseController.class.php 第 50 行.
+NOTIC: [8] Undefined variable: map F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\BaseController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.027002s ]
+NOTIC: [8] Undefined variable: book_name F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\48b8c15dbfeff2c1111b21d6f43a9ae4.php 第 42 行.
+NOTIC: [8] Undefined variable: title F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\48b8c15dbfeff2c1111b21d6f43a9ae4.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.027001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:12:14+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:13:41+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-11-12T00:13:41+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: CMS F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\PublicController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:13:41+08:00 ] 127.0.0.1 /Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:13:41+08:00 ] 127.0.0.1 /Admin/Public/verify/a/0.8018002490045717
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-12T00:13:49+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-12T00:13:51+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: CMS F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\PublicController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:13:51+08:00 ] 127.0.0.1 /Admin/Public/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-12T00:13:51+08:00 ] 127.0.0.1 /Admin/Public/verify/a/0.09322410177753238
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-12T00:13:58+08:00 ] 127.0.0.1 /Admin/Public/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_admin` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `hxb_admin` WHERE `username` = 'hxb' AND `userpass` = '72b6ba460073969243c24a440b7a29d4' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-11-12T00:13:58+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_upload_img` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `hxb_upload_img` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: vo F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 130 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:13:59+08:00 ] 127.0.0.1 /Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_admin` [ RunTime:0.0160s ]
+SQL: select VERSION() as version [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-12T00:14:09+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:14:19+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:14:29+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:14:39+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:14:49+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:14:59+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:15:09+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0040s ]
+
+[ 2017-11-12T00:15:19+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:15:29+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:15:39+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0190s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:15:49+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-11-12T00:15:59+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:16:09+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:16:19+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-11-12T00:16:29+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:16:39+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:16:47+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_upload_img` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `hxb_upload_img` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: vo F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 130 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 662 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Message - assumed 'Message' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant messageList - assumed 'messageList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 667 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 673 行.
+NOTIC: [8] Use of undefined constant Admin - assumed 'Admin' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant Book - assumed 'Book' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [8] Use of undefined constant bookChapterList - assumed 'bookChapterList' F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+NOTIC: [2] Division by zero F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\edfa35e3053db16b24335984ed17aef4.php 第 678 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:16:48+08:00 ] 127.0.0.1 /Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_admin` [ RunTime:0.0190s ]
+SQL: select VERSION() as version [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:16:49+08:00 ] 127.0.0.1 /Admin/Collection/collectionList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `hxb_collection` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined index: p F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\CollectionController.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `hxb_collection` [ RunTime:0.0130s ]
+SQL: SELECT c.id,c.user_name,c.ctime,b.name,b.img,b.username FROM hxb_collection c inner JOIN hxb_book b on c.book_id=b.id   LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_collection` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM hxb_collection c inner JOIN hxb_book b on c.book_id=b.id   LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 6 for Admin\Controller\BaseController::getPage(), called in F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\CollectionController.class.php on line 48 and defined F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\BaseController.class.php 第 50 行.
+NOTIC: [8] Undefined variable: map F:\svn\xit.novel\testing\zwj\novel\Application\Admin\Controller\BaseController.class.php 第 62 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.067004s ]
+NOTIC: [8] Undefined variable: name F:\svn\xit.novel\testing\zwj\novel\Application\Runtime\Cache\Admin\1a646824e4df53b853e3cf542fe78b26.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.063004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.066003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-12T00:16:58+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:17:08+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:17:18+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:17:28+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:17:38+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-11-12T00:17:48+08:00 ] 127.0.0.1 /Admin/index/timeout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `hxb_message` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_message` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `hxb_book_chapter` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hxb_book_chapter` WHERE `status` = 0 LIMIT 1   [ RunTime:0.0000s ]
+
